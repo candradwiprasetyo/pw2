@@ -981,7 +981,10 @@
 	position:absolute; height:0px; margin-top:-40px; width:100%;
 	z-index:-9999;
 }
-
+#update_page{
+	position:absolute; height:0px; margin-top:-40px; width:100%;
+	z-index:-9999;
+}
 @media screen and (max-width: 60em) {
 	#about_page{
 		position:absolute; height:0px; margin-top:10px; width:100%;
@@ -993,6 +996,9 @@
 		position:absolute; height:0px; margin-top:0px; width:100%;
 	}
 	#contact_page{
+		position:absolute; height:0px; margin-top:0px; width:100%;
+	}
+	#update_page{
 		position:absolute; height:0px; margin-top:0px; width:100%;
 	}
 }

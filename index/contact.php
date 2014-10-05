@@ -11,34 +11,45 @@
                                 	please get in touch using one of the methods below <br></p>
                                 </div>
                               <div class="8u">  
-								<form action="proses.php" enctype="multipart/form-data" method="POST">
+								<form action="index/proses.php?act=2" enctype="multipart/form-data" method="POST" name="form_contact">
 									<div class="row half no-collapse-1">
 										<div class="6u">
-											<input type="text" name="name" placeholder="Name" required style="font-weight:400" />
+											<input type="text" name="i_name" placeholder="Name" required style="font-weight:400" />
 										</div>
 										<div class="6u">
-											<input type="email" name="email" placeholder="Email" required style="font-weight:400"/>
+											<input type="email" name="i_email" placeholder="Email" required style="font-weight:400"/>
 										</div>
 									</div>
 									<div class="row half">
 										<div class="12u">
-											<input type="text" name="subject" placeholder="Subject" required style="font-weight:400"/>
+											<input type="text" name="i_subject" placeholder="Subject" required style="font-weight:400"/>
 										</div>
 									</div>
 									<div class="row half">
 										<div class="12u">
-											<textarea name="message" placeholder="Message" rows="7" required style="font-weight:400"></textarea>
+											<textarea name="i_message" placeholder="Message" rows="7" required style="font-weight:400"></textarea>
 										</div>
 									</div>
 									<div class="row">
 										<div class="12u">
-										
-                                                <input name="button_contact" type="submit" class="contact_button" value="Send Message">
+									
+                                   <ul class="examples2">
+			
+                                            <li class="custom-icon">
+                                                <div class="ui">
+                                                    <button class="new_section_button">SEND</button>
+                                                </div>
+                                            
+                                            </li>
+                                            </ul>	
+                                            
+                                               
 											
 										</div>
 									</div>
+                                    
 								</form>
-								
+								 
 							
 							</div>
 							<div class="4u skel-cell-important" style="text-align:center;">

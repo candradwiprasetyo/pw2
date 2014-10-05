@@ -19,7 +19,7 @@
 									  50 %<div class="progress-bar1 progress"></div>
 
 									</div>
-
+									
 									
 								</section>
 							</div>

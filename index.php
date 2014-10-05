@@ -38,6 +38,12 @@ include 'admin/lib/config.php';
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
         
+         <?php include 'css/css_config.php'?>
+        <!-- sweet alert-->
+        <script src="js/alert/sweet-alert.js"></script>
+        
+  		<link rel="stylesheet" type="text/css" href="css/alert/sweet-alert.css">
+  
         <!-- start slider -->
         <link rel="stylesheet" type="text/css" href="css/slider.css" />
 		<script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -55,7 +61,7 @@ include 'admin/lib/config.php';
 
 			});
 		</script>
-        <?php include 'css/css_config.php'?>
+       
         
 	</head>
 	<body class="index loading">
@@ -100,11 +106,13 @@ include 'admin/lib/config.php';
             <script src="js/classie.js"></script>
             
             <script src="js/cbpGridGallery.js"></script>
+            <script src="js/function.js"></script>
            
             <script>
                 new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
             </script>
-
+            
+          
 		
 
 	</body>

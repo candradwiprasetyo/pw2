@@ -569,5 +569,19 @@ header.special:before, header.special:after {
 
 .og-expander{position:absolute;background:<?= $bg_color2 ?>;color:#d6d6d6;top:auto;left:0;width:100%;margin-top:0;text-align:left;height:0;overflow:hidden}
 
-
+ .sweet-alert button {
+    background-color: <?= $bg_color?> !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 10px 32px;
+    margin: 26px 5px 0 5px;
+    cursor: pointer; }
+.sweet-alert button:hover {
+      background-color: <?= $bg_color?>; 
+	  opacity:50%;
+}
 </style>
